@@ -198,7 +198,7 @@ nav {
     font-size: 18px;
     text-align: center;
     border-radius: 50%;
-    background-color: #2CC762;
+    background-color: #2CC76A;
     color: #FFF;
     position: relative;
     margin-left: auto;
@@ -217,7 +217,7 @@ nav {
 
 .plan .plan_btn {
     cursor: pointer;
-    background-color: #2CC762;
+    background-color: #2CC76A;
     font-weight: bold;
     height: 75px;
     line-height: 75px;
@@ -227,4 +227,104 @@ nav {
 
 .plan .recommended {
     background-color: #FA5C57;
+}
+
+/* SEARCH DOMAIN */
+
+.subdomain_container {
+    background-color: #34454E;
+    text-align: center;
+    padding: 5em 0;
+}
+
+.subdomain_container h2 {
+    color: #FFF;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 42px;
+}
+
+.subdomain_container p {
+    color: #D5D5D5;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.subdomain_container input {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 15px;
+}
+
+.subdomain_container input[type=text] {
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+
+.subdomain_container input[type=submit] {
+    background-color: #2CC76A;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* CONTATO */
+
+.contact_container {
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.contact_container h2 {
+    font-size: 36px;
+}
+
+.contact_container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact_container input,
+.contact_container textarea {
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 1px solid #CCC;
+    border-radius: 10px;
+    box-shadow: 0 0 0 0;
+    outline: none;
+}
+
+.contact_container textarea {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+
+.contact_container input[type=submit] {
+    cursor: pointer;
+    color: #FFF;
+    background-color: #2CC76A;
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 50px;
 }
