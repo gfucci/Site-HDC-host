@@ -328,3 +328,61 @@ footer {
     font-weight: bolder;
     margin-bottom: 50px;
 }
+
+/* MOBILE */
+@media screen and (max-width: 1100px) {
+    
+    .plans_container {
+        width: 95%;
+
+    }
+
+    .plan {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .plans_container,
+    .specialties_container ul {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 567px) {
+
+    html, body {
+        overflow-y: hidden;
+    }
+
+    .navbar_items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .subdomain_container, 
+    .contact_container {
+        padding: 3em 2em;
+    }
+
+    .container .subdomain_container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact_container input,
+    .contact_container textarea {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+}
